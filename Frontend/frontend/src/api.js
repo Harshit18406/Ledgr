@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // adjust to your backend URL
+  baseURL: 'https://ledgr-backend-eopc.onrender.com' // adjust to your backend URL
 });
 
 // Pass token with every request
